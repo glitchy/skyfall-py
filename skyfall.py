@@ -15,7 +15,7 @@ stdscr.keypad(True)
 quote = "THINK ON YOUR SINS".center(os.get_terminal_size().columns)
 words = list(quote)
 
-time.sleep(5)
+time.sleep(3)
 
 # makes cursor invisible
 curses.curs_set(False)
@@ -41,7 +41,7 @@ curses.curs_set(True)
 # undo comments below for additional ending
 # paragraph = "THINK ON YOUR SINS " * 150
 # text = list(paragraph)
-time.sleep(4)
+time.sleep(3)
 
 # for letter in text:
 #    time.sleep(.005)
